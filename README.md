@@ -93,7 +93,7 @@ $dark: #262626;
 ### BootstrapVue v2.21.2 support bootstrap4
 
 ```
-# [Error in bootstrap-vue/src/index.scss #5797](https://github.com/bootstrap-vue/bootstrap-vue/issues/5797)
+# https://github.com/bootstrap-vue/bootstrap-vue/issues/5797
 # make sure install bootstrap4 instead of bootstrap5
 $b-custom-control-indicator-size-lg: $custom-control-indicator-size * 1.25 !default;
 
