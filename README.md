@@ -1,4 +1,4 @@
-# bootstrapvue
+# custom_bootstrapvue
 
 ![](https://github.com/Jordon-Chen/custom_bootstrapvue/blob/main/src/assets/original.jpg?raw=true)
 ![](https://github.com/Jordon-Chen/custom_bootstrapvue/blob/main/src/assets/custom.jpg?raw=true)
