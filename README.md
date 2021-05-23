@@ -1,7 +1,7 @@
 # bootstrapvue
 
-![](https://github.com/Jordon-Chen/Java/blob/master/BootstrapVue/src/assets/original.jpg?raw=true)
-![](https://github.com/Jordon-Chen/Java/blob/master/BootstrapVue/src/assets/custom.jpg?raw=true)
+![](https://github.com/Jordon-Chen/BootstrapVue/blob/master/src/assets/original.jpg?raw=true)
+![](https://github.com/Jordon-Chen/BootstrapVue/blob/master/src/assets/custom.jpg?raw=true)
 
 ## Create project
 
