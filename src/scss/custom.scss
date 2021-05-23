@@ -1,0 +1,20 @@
+// File: custom.scss
+
+// Define your variable overrides here
+
+// Theme color default definitions
+// https://mdbootstrap.com/docs/standard/content-styles/colors/
+$primary: #1266F1;
+$secondary: #B23CFD;
+$success: #00B74A;
+$info: #39C0ED;
+$warning: #FFA900;
+$danger: #F93154;
+$light: #FBFBFB;
+$dark: #262626;
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+
+// General style overrides and custom classes
