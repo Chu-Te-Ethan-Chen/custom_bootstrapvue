@@ -14,7 +14,7 @@ $light: #FBFBFB;
 $dark: #262626;
 
 // Include Bootstrap and BootstrapVue SCSS files
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../../node_modules/bootstrap-vue/src/index.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
 
 // General style overrides and custom classes

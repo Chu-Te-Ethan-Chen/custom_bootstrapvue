@@ -36,9 +36,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
-
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import '../scss/custom.scss'
+# import 'bootstrap/dist/css/bootstrap.css'
+# import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
@@ -83,9 +83,18 @@ $light: #FBFBFB;
 $dark: #262626;
 
 // Include Bootstrap and BootstrapVue SCSS files
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../../node_modules/bootstrap-vue/src/index.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
 
 // General style overrides and custom classes
+
+```
+
+### BootstrapVue v2.21.2 support bootstrap4
+
+```
+# [Error in bootstrap-vue/src/index.scss #5797](https://github.com/bootstrap-vue/bootstrap-vue/issues/5797)
+# make sure install bootstrap4 instead of bootstrap5
+$b-custom-control-indicator-size-lg: $custom-control-indicator-size * 1.25 !default;
 
 ```
