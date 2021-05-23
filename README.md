@@ -95,6 +95,15 @@ $dark: #262626;
 ```
 # https://github.com/bootstrap-vue/bootstrap-vue/issues/5797
 # make sure install bootstrap4 instead of bootstrap5
-$b-custom-control-indicator-size-lg: $custom-control-indicator-size * 1.25 !default;
 
+error  in ./node_modules/bootstrap-vue/src/index.scss
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Undefined variable.
+
+   ╷
+11 │ $b-custom-control-indicator-size-lg: $custom-control-indicator-size * 1.25 !default;
+   │                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  node_modules/bootstrap-vue/src/_variables.scss 11:38  @import
 ```
